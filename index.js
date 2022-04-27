@@ -5,8 +5,6 @@ let buttonDOM = document.querySelector("#liveToastBtn");
 buttonDOM.addEventListener("click", add);
 listDOM.addEventListener("click", remove);
 
-localStorage.setItem("task", LiDOM);
-
 let myList = document.getElementsByTagName("LI");
 for (let i = 0; i < myList.length; i++) {
   let span = document.createElement("SPAN");
